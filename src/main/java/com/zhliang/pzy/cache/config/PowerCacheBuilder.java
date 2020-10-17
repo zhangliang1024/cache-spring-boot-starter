@@ -22,7 +22,6 @@ import java.util.function.Function;
  * 支持多缓存提供程序多级缓存的缓存帮助类
  */
 @Configuration
-//@ComponentScan(basePackages = AppConst.BASE_PACKAGE_NAME)
 public class PowerCacheBuilder {
 
     private static final Logger logger = LoggerFactory.getLogger(PowerCacheBuilder.class);

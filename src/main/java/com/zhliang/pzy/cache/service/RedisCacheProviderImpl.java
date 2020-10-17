@@ -18,7 +18,6 @@ import java.util.function.Function;
  */
 @Configuration
 @Qualifier("redisCacheService")
-//@ComponentScan(basePackages = AppConst.BASE_PACKAGE_NAME)
 public class RedisCacheProviderImpl implements CacheProviderService {
 
     @Resource

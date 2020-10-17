@@ -23,7 +23,6 @@ import java.util.function.Function;
 // */
 @Configuration
 @Qualifier("localCacheService")
-//@ComponentScan(basePackages = AppConst.BASE_PACKAGE_NAME)
 public class LocalCacheProviderImpl implements CacheProviderService {
 
     private static Map<String, Cache<String, Object>> _cacheMap = Maps.newConcurrentMap();
