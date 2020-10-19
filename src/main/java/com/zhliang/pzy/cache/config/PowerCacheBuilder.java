@@ -60,8 +60,6 @@ public class PowerCacheBuilder {
 
             String isUseCache = configProp.getConfigVal(AppField.IS_USE_LOCAL_CACHE);
 
-            CacheProviderService cacheProviderService = null;
-
             //启用本地缓存
             if (AppConst.IS_USE_LOCAL_CACHE.equalsIgnoreCase(isUseCache)) {
                 _listCacheProvider.add(localCacheService);
